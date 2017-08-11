@@ -1,0 +1,224 @@
+/*==============ШРИФТЫ===============*/	
+
+
+
+
+
+
+
+/*==============общее===============*/
+html,body {
+	height: 100%;
+	padding: 0;
+	margin: 0;	
+}
+.wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	position: 0;
+	margin: 0;
+	background-color:#fff;
+}
+.content {	
+	flex: 1 0 auto;
+}
+header, footer {
+
+	background-color:#353a3e;
+}
+
+
+/*==============Шапка===============*/
+header {	
+	padding-top:20px;
+	padding-bottom: 20px;
+	.Logo img{
+		width:50%;
+	}
+	ul.list-inline{
+			margin-bottom:0px;
+		a{
+			color:#fff;
+			&:hover{
+				text-decoration: none;
+				color:#e5a627;
+			}
+			i{
+			margin-right:10px;
+			color:#f76e45;
+			}
+		}
+	button{
+	border:none;
+	background-color:transparent;
+	color:#fff;
+	&:hover {
+		color:#e5a627;
+	}	
+		}
+		
+	}
+}
+
+/*==============главная навигация===============*/
+#main {
+	.type_s {
+		box-shadow: 0 2px 4px;
+		margin-top: 50px;
+		border: 1px solid silver;
+		border-radius: 10px;
+		width:32%;
+		margin-left: 10px;
+		padding:10px 10px;
+		background-color:#f7f7f7;
+		&:hover{
+			background-color: #eaeaea;
+			border:1px solid #e5a627;
+		}
+		a:hover{
+			text-decoration:none;
+		}
+		img {
+			width: 80%;
+			margin: 0 auto;
+			text-align: center; 
+		}
+		p{
+			color:#252525;
+		}
+		h3{
+			color:#252525;
+		}
+	}
+}
+/*==============модальное окно===============*/
+#popup {
+	margin-top: 100px;
+	display:none;
+	padding:10px 20px;
+	z-index:100;
+	position:absolute;
+	margin-left:33%;
+	border: 3px solid silver;
+	width:33%;
+	height: 200px;
+	background-color:#fff;
+	button{
+		margin-top:10px;
+	}
+}
+/*==============переход===============*/
+.crossing{
+	padding-top: 10px;
+	margin-left:5%;
+	a{
+		text-decoration:none;
+		color:#000;
+		&:hover{
+			color:#000;
+			text-decoration:none;
+		}
+	}
+	i{
+		padding-left: 5px;
+		padding-right: 5px;
+		color:#f76e45;
+	}
+}
+/*==============меню школах===============*/
+nav#menu{
+	background-color:#4f5b62;
+
+	ul li.menuHover{
+		float: left;
+		list-style-type:none;
+		width:11%;
+		height:80px;
+		padding:10px 5px;
+		font-size: 0.9em;
+		&:hover{
+				background-color:#eb5b26;
+			}
+		a.hrefDiscipline{
+			text-transform: uppercase;
+			color:#fff;
+
+			text-decoration:none;
+			}
+
+		}
+	 	.catalog{
+	 		display:none;
+	 		ul{	
+	 			position:relative;
+	 			background-color:#fff;
+	 			border: 1px solid silver;
+	 			z-index:1001;
+	 			float: left;
+	 			padding:0px;
+	 			li{
+	 				padding:5px;
+	 				list-style-type:none;
+	 			}
+	 		}
+	 	}
+}
+/*==============виды спорта===============*/
+
+/*==============школы меню===============*/
+.scoolls{
+	ul {
+		margin-top: 20px;
+		list-style-type: none;
+		li {
+			box-shadow: 0 1px 2px;
+			border: 1px solid silver;
+			border-radius:5px;
+			width: 40%;
+			float: left;
+			margin-left: 15px;
+			margin-top: 10px;
+			height: 250px;
+			padding:10px 10px;
+			&:hover{
+				background-color:#eaeaea;
+			}
+			img{
+				margin: 0 auto;
+				text-align:center;
+			}
+		}
+	}
+}
+footer {
+	background-color:#edeef0;
+	color:#000;
+	padding-top: 10px;
+	ul.list-inline{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	 a {
+			color:#000;
+			&:hover{
+				color:#e5a627;
+				text-decoration:none;
+			}
+	}		
+}
+}
+
+@media(min-width: 0px) and (max-width: 320px){
+}
+@media(min-width: 321px) and (max-width: 480px){
+}
+@media(min-width: 481px) and (max-width: 768px){
+}
+@media(min-width: 769px) and (max-width: 992px){
+}
+@media(min-width: 993px) and (max-width: 1200px){
+
+}
+/*==============media===============*/
+
